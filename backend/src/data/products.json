@@ -1,0 +1,74 @@
+[
+    {
+        "SKU": 1234,
+        "name": "apple",
+        "description": "macintosh",
+        "price": 1.99
+    },
+    {
+        "SKU": 5678,
+        "name": "orange",
+        "description": "Mandarin oranges",
+        "price": 5.99
+    },
+    {
+        "SKU": 9101,
+        "name": "strawberry",
+        "description": "ice cream",
+        "price": 2.99
+    },
+    {
+        "SKU": 1121,
+        "name": "mango",
+        "description": "dried mangoes",
+        "price": 7.99
+    },
+    {
+        "SKU": 3141,
+        "name": "avocado",
+        "description": "toast spread",
+        "price": 13.99
+    },
+    {
+        "SKU": 5161,
+        "name": "plum",
+        "description": "happiness",
+        "price": 1
+    },
+    {
+        "SKU": 7181,
+        "name": "pomegranate",
+        "description": "nice day soju",
+        "price": 8
+    },
+    {
+        "SKU": 9202,
+        "name": "grapefruit",
+        "description": "ice cream",
+        "price": 5.00
+    },
+    {
+        "SKU": 1222,
+        "name": "watermelon",
+        "description": "hand sanitizer",
+        "price": 14.5
+    },
+    {
+        "SKU": 3242,
+        "name": "grapes",
+        "description": "wine and drinks",
+        "price": 18.99
+    },
+    {
+        "SKU": 5262,
+        "name": "banana",
+        "description": "milk and yogurt drink",
+        "price": 24
+    },
+    {
+        "SKU": 7282,
+        "name": "lemon",
+        "description": "tequila or paloma",
+        "price": 5.99
+    }
+]

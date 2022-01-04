@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend service that returns product data",
+  "main": "server.js",
+  "scripts": {
+    "serve": "nodemon server.js",
+    "test": "jest --testTimeout=10000  --detectOpenHandles --forceExit"
+  },
+  "author": "fiona",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "supertest": "^6.1.6"
+  }
+}
