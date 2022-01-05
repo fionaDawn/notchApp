@@ -74,7 +74,7 @@ const Checkout = () => {
                         </TableRow>
                         <TableRow>
                             <TableCell colSpan={2}>Total</TableCell>
-                            <TableCell align="right">{formatCurrency(invoiceTotal)}</TableCell>
+                            <TableCell data-testid="total-label" align="right">{formatCurrency(invoiceTotal)}</TableCell>
                         </TableRow>
                     </TableBody>
                 </Table>

@@ -1,4 +1,4 @@
-import { Avatar, Box, Button, Container, CssBaseline, FormControlLabel, Grid, Link, TextField, Typography } from "@mui/material";
+import { Box, Button, Container, CssBaseline, Grid, Link, TextField, Typography } from "@mui/material";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom"
 
@@ -52,6 +52,7 @@ const Login = () => {
                     autoComplete="current-password"
                 />
                 <Button
+                    data-testid="login-btn"
                     type="submit"
                     fullWidth
                     variant="contained"

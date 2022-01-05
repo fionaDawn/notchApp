@@ -42,6 +42,7 @@ const Cart = () => {
                                 <TableCell>{row.name}</TableCell>
                                 <TableCell align="right">
                                     <TextField
+                                        data-testid={`${row.name}-number`}
                                         name={row.SKU.toString()}
                                         label="Number"
                                         type="number"

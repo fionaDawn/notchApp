@@ -12,4 +12,9 @@ describe('Product Endpoints', () => {
         expect(res.status).toEqual(200);
         expect(res.body).toHaveLength(13);
     });
+    it("GET /products with search text should return only the products that match", async () => {
+        const res = await requestWithSupertest.get('/products?search=l');
+        expect(res.status).toEqual(200);
+        expect(res.body).toHaveLength(2);
+    });
 });
