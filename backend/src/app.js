@@ -8,7 +8,8 @@ app.use(cors({
 
 app.get('/products', (req, res) => {
     const data = require('./data/products.json')
-    res.send(data)
+    const respData = req.query.search ? data.filter(d => d.name.startsWith(req.query.search)) : data;
+    res.send(respData)
 })
 
 module.exports = app;

@@ -70,5 +70,11 @@
         "name": "lemon",
         "description": "tequila or paloma",
         "price": 5.99
+    },
+    {
+        "SKU": 9303,
+        "name": "lime",
+        "description": "squirt drink",
+        "price": 5.99
     }
 ]

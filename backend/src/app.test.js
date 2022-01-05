@@ -10,6 +10,6 @@ describe('Product Endpoints', () => {
     it("GET /products should return all product data", async () => {
         const res = await requestWithSupertest.get('/products');
         expect(res.status).toEqual(200);
-        expect(res.body).toHaveLength(12);
+        expect(res.body).toHaveLength(13);
     });
 });
