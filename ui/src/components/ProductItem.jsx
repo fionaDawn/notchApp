@@ -27,6 +27,9 @@ const ProductItem = ({ product }) => {
         <Typography variant="subtitle1" gutterBottom component="div">
             {product.description}
         </Typography>
+        <Typography variant="body" gutterBottom component="div">
+            {product.price}
+        </Typography>
         <Button data-testid={`btn-${product.name}`} variant="contained" startIcon={<CartIcon />} onClick={addCart}>
             Add to Cart
         </Button>
